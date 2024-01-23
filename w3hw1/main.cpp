@@ -7,6 +7,10 @@ using namespace std;
 
 
 bool isPrime(int num) {
+    if (num <= 1) {
+        return false;
+    }
+
     // Checks if any of integers smaller than the root of the number divides it
     for (int i = 2; i <= sqrt(num); i++) {
         if (num % i == 0) {
