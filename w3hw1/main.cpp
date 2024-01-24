@@ -28,4 +28,6 @@ int main() {
         isPrime(1000001) << " " <<
         isPrime(1000021) << " " <<
         isPrime(1000037) << endl;
+
+    return 0;
 }
