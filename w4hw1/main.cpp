@@ -24,6 +24,7 @@ int main() {
 
     // Generate all possible numbers
     for (int i = MIN_VALUE; i <= MAX_VALUE; i++) {
+        // Borrowed the idea from here: https://stackoverflow.com/a/571405
         if (find(numbers.begin(), numbers.end(), i) == numbers.end()) {
             // If number not in file, mark as missing
             missingNumbers.insert(missingNumbers.begin(), i);
