@@ -11,7 +11,7 @@ class Rap : public Song {
             : Song(title, author, lyrics, year) {};
 
         /** Rap a song line(s) */
-        Rap break_it(int max_lines, string drop) {
+        Rap break_it(int max_lines = -1, string drop = "yeah") {
             // From https://stackoverflow.com/a/735215
             transform(drop.begin(), drop.end(), drop.begin(), ::toupper);
             this->drop = drop;
