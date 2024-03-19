@@ -1,5 +1,4 @@
 // Martins_Prokuratovs_221RDB473
-// Both Week 9 and 10
 #include <string>
 #include <iostream>
 #include <vector>
